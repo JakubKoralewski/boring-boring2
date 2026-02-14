@@ -188,6 +188,7 @@ dependencies = [
 [[package]]
 name = "boring-sys2"
 version = "5.0.0-alpha.13"
+source = "git+https://github.com/JakubKoralewski/boring2.git#c068d71d6a8aa7c60241fb39307781846e30b2a1"
 dependencies = [
  "bindgen",
  "cmake",
@@ -198,6 +199,7 @@ dependencies = [
 [[package]]
 name = "boring2"
 version = "5.0.0-alpha.13"
+source = "git+https://github.com/JakubKoralewski/boring2.git#c068d71d6a8aa7c60241fb39307781846e30b2a1"
 dependencies = [
  "bitflags",
  "boring-sys2",
@@ -2594,6 +2596,7 @@ dependencies = [
 [[package]]
 name = "tokio-boring2"
 version = "5.0.0-alpha.13"
+source = "git+https://github.com/JakubKoralewski/boring2.git#c068d71d6a8aa7c60241fb39307781846e30b2a1"
 dependencies = [
  "boring2",
  "tokio",

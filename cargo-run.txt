@@ -59,7 +59,7 @@ warning: boring-sys2@5.0.0-alpha.13: "/home/username/projects/project/boring2/bo
      Running `/mnt/vol/.cargo/target/debug/boring-boring2`
 {
   "donate": "Please consider donating to keep this API running. Visit https://tls.peet.ws",
-  "ip": "143.47.182.234:58028",
+  "ip": "yomama:58028",
   "http_version": "h2",
   "method": "GET",
   "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
@@ -253,7 +253,7 @@ warning: boring-sys2@5.0.0-alpha.13: "/home/username/projects/project/boring2/bo
       "ttl": 52,
       "ip_version": 4,
       "dst_ip": "205.185.123.167",
-      "src_ip": "143.47.182.234"
+      "src_ip": "yomama"
     },
     "tcp": {
       "ack": 3625499082,

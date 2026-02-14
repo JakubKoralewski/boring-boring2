@@ -14,9 +14,7 @@ wreq-util="3.0.0-rc.10"
 snafu="*"
 
 [patch.crates-io.tokio-boring2]
-# git="https://github.com/JakubKoralewski/boring2.git"
-path = "/home/username/projects/project/boring2/tokio-boring"
+git="https://github.com/JakubKoralewski/boring2.git"
 
 [patch.crates-io.boring2]
-# git="https://github.com/JakubKoralewski/boring2.git"
-path = "/home/username/projects/project/boring2/boring"
+git="https://github.com/JakubKoralewski/boring2.git"
