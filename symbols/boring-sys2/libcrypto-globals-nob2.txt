@@ -1,0 +1,1083 @@
+
+a_bitstr.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+a_bool.c.o:
+
+a_d2i_fp.c.o:
+
+a_dup.c.o:
+
+a_gentm.c.o:
+                 U strlen
+
+a_i2d_fp.c.o:
+
+a_int.c.o:
+                 U __assert_fail
+                 U memcpy
+
+a_mbstr.c.o:
+                 U strlen
+
+a_object.c.o:
+                 U __assert_fail
+                 U strlen
+
+a_octet.c.o:
+
+a_strex.c.o:
+                 U __assert_fail
+                 U strlen
+
+a_strnid.c.o:
+                 U __assert_fail
+                 U bsearch
+
+a_time.c.o:
+                 U time
+
+a_type.c.o:
+
+a_utctm.c.o:
+                 U strlen
+
+asn1_lib.c.o:
+                 U memcmp
+                 U memcpy
+                 U strlen
+
+asn1_par.c.o:
+
+asn_pack.c.o:
+
+f_int.c.o:
+
+f_string.c.o:
+
+tasn_dec.c.o:
+                 U __assert_fail
+
+tasn_enc.c.o:
+                 U __assert_fail
+                 U memcmp
+                 U memcpy
+                 U qsort
+
+tasn_fre.c.o:
+                 U __assert_fail
+
+tasn_new.c.o:
+                 U __assert_fail
+                 U memset
+
+tasn_typ.c.o:
+
+tasn_utl.c.o:
+                 U __assert_fail
+                 U memcpy
+
+posix_time.c.o:
+                 U __assert_fail
+                 U memset
+
+base64.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+bio.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+                 U strlen
+
+bio_mem.c.o:
+                 U memchr
+                 U memcpy
+                 U memmove
+                 U memset
+                 U strlen
+
+connect.c.o:
+                 U __assert_fail
+                 U close
+                 U connect
+                 U memset
+                 U recv
+                 U send
+                 U setsockopt
+                 U shutdown
+                 U strchr
+                 U strlen
+
+fd.c.o:
+                 U close
+                 U __errno_location
+                 U lseek
+                 U read
+                 U write
+
+file.c.o:
+                 U __errno_location
+                 U fclose
+                 U feof
+                 U ferror
+                 U fflush
+                 U fgets
+                 U fopen64
+                 U fread
+                 U fseek
+                 U ftell
+                 U fwrite
+                 U strlen
+
+hexdump.c.o:
+                 U memset
+
+pair.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+printf.c.o:
+                 U __assert_fail
+                 U vsnprintf
+
+socket.c.o:
+                 U close
+                 U read
+                 U write
+
+socket_helper.c.o:
+                 U fcntl
+                 U freeaddrinfo
+                 U gai_strerror
+                 U getaddrinfo
+                 U getsockopt
+                 U memcpy
+                 U memset
+                 U socket
+
+blake2.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+bn_asn1.c.o:
+
+convert.c.o:
+                 U __assert_fail
+                 U memset
+
+buf.c.o:
+                 U memcpy
+                 U memset
+
+asn1_compat.c.o:
+                 U __assert_fail
+                 U memcpy
+
+ber.c.o:
+                 U __assert_fail
+
+cbb.c.o:
+                 U __assert_fail
+                 U memcmp
+                 U memcpy
+                 U memmove
+                 U memset
+                 U qsort
+
+cbs.c.o:
+                 U __assert_fail
+                 U memchr
+                 U memcpy
+                 U memset
+                 U strlen
+
+unicode.c.o:
+
+chacha.c.o:
+                 U __assert_fail
+                 U memcpy
+
+cipher_extra.c.o:
+
+derive_key.c.o:
+                 U __assert_fail
+
+e_aesctrhmac.c.o:
+                 U memcpy
+                 U memset
+
+e_aesgcmsiv.c.o:
+                 U memcpy
+                 U memset
+
+e_chacha20poly1305.c.o:
+                 U memcpy
+                 U memset
+
+e_des.c.o:
+
+e_null.c.o:
+                 U memcpy
+
+e_rc2.c.o:
+
+e_rc4.c.o:
+
+e_tls.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+tls_cbc.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+conf.c.o:
+                 U memset
+                 U strchr
+                 U strcmp
+                 U strlen
+
+cpu_aarch64_apple.c.o:
+
+cpu_aarch64_freebsd.c.o:
+
+cpu_aarch64_fuchsia.c.o:
+
+cpu_aarch64_linux.c.o:
+                 U getauxval
+
+cpu_aarch64_win.c.o:
+
+cpu_arm_freebsd.c.o:
+
+cpu_arm_linux.c.o:
+
+cpu_arm.c.o:
+
+cpu_intel.c.o:
+
+crypto.c.o:
+
+curve25519.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memmove
+                 U memset
+
+spake25519.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+des.c.o:
+
+params.c.o:
+
+dh_asn1.c.o:
+                 U __assert_fail
+
+digest_extra.c.o:
+                 U memcmp
+                 U strcmp
+
+dsa.c.o:
+                 U memcmp
+                 U memcpy
+                 U memset
+
+dsa_asn1.c.o:
+                 U __assert_fail
+
+ecdh_extra.c.o:
+                 U memcpy
+
+ecdsa_asn1.c.o:
+                 U memcmp
+
+ec_asn1.c.o:
+                 U memcmp
+
+ec_derive.c.o:
+                 U __assert_fail
+                 U strlen
+
+hash_to_curve.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+err.c.o:
+                 U __assert_fail
+                 U bsearch
+                 U __errno_location
+                 U fputs
+                 U free
+                 U malloc
+                 U memset
+                 U strchr
+                 U strdup
+                 U strerror
+                 U strlen
+
+err_data.c.o:
+
+engine.c.o:
+                 U __assert_fail
+                 U memset
+
+evp.c.o:
+                 U memset
+
+evp_asn1.c.o:
+                 U memcmp
+
+evp_ctx.c.o:
+                 U memset
+
+p_dsa_asn1.c.o:
+
+p_ec.c.o:
+                 U memset
+
+p_ec_asn1.c.o:
+
+p_ed25519.c.o:
+
+p_ed25519_asn1.c.o:
+                 U memcmp
+                 U memcpy
+
+p_hkdf.c.o:
+                 U memset
+
+p_rsa.c.o:
+                 U memcpy
+                 U memset
+
+p_rsa_asn1.c.o:
+
+p_x25519.c.o:
+
+p_x25519_asn1.c.o:
+                 U memcmp
+                 U memcpy
+
+pbkdf.c.o:
+                 U memcpy
+
+print.c.o:
+
+scrypt.c.o:
+                 U __assert_fail
+                 U memcpy
+
+sign.c.o:
+
+ex_data.c.o:
+                 U abort
+                 U __assert_fail
+
+hpke.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+                 U strlen
+
+hrss.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+                 U printf
+                 U putchar
+                 U puts
+
+kyber512.c.o:
+                 U memcpy
+
+kyber768.c.o:
+                 U memcpy
+
+kyber1024.c.o:
+                 U memcpy
+
+lhash.c.o:
+                 U __assert_fail
+                 U memset
+
+mem.c.o:
+                 U __assert_fail
+                 U __errno_location
+                 U free
+                 U malloc
+                 U memcpy
+                 U memset
+                 w OPENSSL_memory_alloc
+                 w OPENSSL_memory_free
+                 w OPENSSL_memory_get_size
+                 U realloc
+                 w sdallocx
+                 U strlen
+                 U vsnprintf
+
+obj.c.o:
+                 U bsearch
+                 U memcmp
+                 U memcpy
+                 U memset
+                 U strcmp
+                 U strlen
+
+obj_xref.c.o:
+
+pem_all.c.o:
+
+pem_info.c.o:
+                 U strcmp
+                 U strlen
+
+pem_lib.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+                 U strcmp
+                 U strlen
+                 U strncmp
+
+pem_oth.c.o:
+
+pem_pk8.c.o:
+
+pem_pkey.c.o:
+                 U strcmp
+
+pem_x509.c.o:
+
+pem_xaux.c.o:
+
+pkcs7.c.o:
+
+pkcs7_x509.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+pkcs8.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memset
+
+pkcs8_x509.c.o:
+                 U memchr
+                 U memcpy
+                 U memset
+                 U strlen
+
+p5_pbev2.c.o:
+
+poly1305.c.o:
+                 U __assert_fail
+                 U memcpy
+
+poly1305_arm.c.o:
+
+poly1305_vec.c.o:
+
+pool.c.o:
+                 U __assert_fail
+                 U memcmp
+                 U memset
+
+deterministic.c.o:
+
+forkunsafe.c.o:
+                 U abort
+
+fuchsia.c.o:
+
+passive.c.o:
+
+rand_extra.c.o:
+
+windows.c.o:
+
+rc4.c.o:
+
+refcount_c11.c.o:
+                 U abort
+
+refcount_lock.c.o:
+
+rsa_asn1.c.o:
+                 U __assert_fail
+
+rsa_crypt.c.o:
+                 U memcpy
+                 U memset
+
+rsa_print.c.o:
+
+stack.c.o:
+                 U __assert_fail
+                 U memcpy
+                 U memmove
+                 U memset
+                 U qsort
+
+siphash.c.o:
+                 U memcpy
+                 U memset
+
+thread.c.o:
+
+thread_none.c.o:
+
+thread_pthread.c.o:
+                 U abort
+                 U free
+                 U malloc
+                 U memcpy
+                 U memset
+                 U pthread_getspecific
+                 U pthread_key_create
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+                 U pthread_once
+                 U pthread_rwlock_destroy
+                 U pthread_rwlock_init
+                 U pthread_rwlock_rdlock
+                 U pthread_rwlock_unlock
+                 U pthread_rwlock_wrlock
+                 U pthread_setspecific
+
+thread_win.c.o:
+
+pmbtoken.c.o:
+                 U memcpy
+
+trust_token.c.o:
+                 U memset
+
+voprf.c.o:
+                 U __assert_fail
+                 U memcpy
+
+a_digest.c.o:
+
+a_sign.c.o:
+
+a_verify.c.o:
+
+algorithm.c.o:
+
+asn1_gen.c.o:
+                 U __assert_fail
+                 U memcmp
+                 U strchr
+                 U strlen
+
+by_dir.c.o:
+                 U getenv
+                 U memcpy
+                 U stat
+                 U strlen
+                 U strncmp
+
+by_file.c.o:
+                 U getenv
+
+i2d_pr.c.o:
+
+name_print.c.o:
+                 U __assert_fail
+                 U strlen
+
+policy.c.o:
+                 U __assert_fail
+                 U memset
+
+rsa_pss.c.o:
+                 U __assert_fail
+
+t_crl.c.o:
+                 U __assert_fail
+
+t_req.c.o:
+                 U __assert_fail
+
+t_x509.c.o:
+                 U __assert_fail
+
+t_x509a.c.o:
+
+x509.c.o:
+
+x509_att.c.o:
+
+x509_cmp.c.o:
+                 U memcmp
+
+x509_d2.c.o:
+
+x509_def.c.o:
+
+x509_ext.c.o:
+
+x509_lu.c.o:
+                 U memset
+
+x509_obj.c.o:
+                 U memcpy
+                 U strlen
+
+x509_req.c.o:
+
+x509_set.c.o:
+
+x509_trs.c.o:
+
+x509_txt.c.o:
+
+x509_v3.c.o:
+
+x509_vfy.c.o:
+                 U memset
+                 U strlen
+                 U time
+
+x509_vpm.c.o:
+                 U memchr
+                 U memset
+                 U strcmp
+
+x509cset.c.o:
+
+x509name.c.o:
+                 U memcpy
+                 U strlen
+
+x509rset.c.o:
+
+x509spki.c.o:
+                 U strlen
+
+x_algor.c.o:
+
+x_all.c.o:
+
+x_attrib.c.o:
+
+x_crl.c.o:
+                 U __assert_fail
+
+x_exten.c.o:
+
+x_info.c.o:
+
+x_name.c.o:
+                 U memcpy
+
+x_pkey.c.o:
+                 U memset
+
+x_pubkey.c.o:
+
+x_req.c.o:
+
+x_sig.c.o:
+
+x_spki.c.o:
+
+x_val.c.o:
+
+x_x509.c.o:
+                 U __assert_fail
+                 U memset
+
+x_x509a.c.o:
+
+v3_akey.c.o:
+                 U strcmp
+
+v3_akeya.c.o:
+
+v3_alt.c.o:
+                 U strchr
+                 U strcmp
+                 U strlen
+
+v3_bcons.c.o:
+                 U strcmp
+
+v3_bitst.c.o:
+                 U strcmp
+
+v3_conf.c.o:
+                 U memset
+                 U strlen
+                 U strncmp
+
+v3_cpols.c.o:
+                 U strcmp
+                 U strlen
+
+v3_crld.c.o:
+                 U strcmp
+
+v3_enum.c.o:
+
+v3_extku.c.o:
+
+v3_genn.c.o:
+
+v3_ia5.c.o:
+                 U memcpy
+                 U strlen
+
+v3_info.c.o:
+                 U strchr
+                 U strlen
+
+v3_int.c.o:
+
+v3_lib.c.o:
+                 U __assert_fail
+                 U bsearch
+                 U memcpy
+
+v3_ncons.c.o:
+                 U __assert_fail
+                 U memcmp
+                 U strncmp
+
+v3_ocsp.c.o:
+
+v3_pcons.c.o:
+                 U strcmp
+
+v3_pmaps.c.o:
+
+v3_prn.c.o:
+
+v3_purp.c.o:
+                 U bsearch
+                 U strcmp
+
+v3_skey.c.o:
+                 U strcmp
+
+v3_utl.c.o:
+                 U __isoc99_sscanf
+                 U memchr
+                 U memcmp
+                 U memcpy
+                 U memset
+                 U strchr
+                 U strcmp
+                 U strlen
+                 U strncmp
+
+x25519-asm-arm.S.o:
+
+poly_rq_mul.S.o:
+
+poly1305_arm_asm.S.o:
+
+chacha-armv8-apple.S.o:
+
+chacha-armv8-linux.S.o:
+
+chacha-armv8-win.S.o:
+
+chacha20_poly1305_armv8-apple.S.o:
+
+chacha20_poly1305_armv8-linux.S.o:
+
+chacha20_poly1305_armv8-win.S.o:
+
+trampoline-armv8-apple.S.o:
+
+trampoline-armv8-linux.S.o:
+
+trampoline-armv8-win.S.o:
+
+chacha-armv4-apple.S.o:
+
+chacha-armv4-linux.S.o:
+
+trampoline-armv4-apple.S.o:
+
+trampoline-armv4-linux.S.o:
+
+chacha-x86-apple.S.o:
+
+chacha-x86-linux.S.o:
+
+trampoline-x86-apple.S.o:
+
+trampoline-x86-linux.S.o:
+
+chacha-x86_64-apple.S.o:
+
+chacha-x86_64-linux.S.o:
+
+aes128gcmsiv-x86_64-apple.S.o:
+
+aes128gcmsiv-x86_64-linux.S.o:
+
+chacha20_poly1305_x86_64-apple.S.o:
+
+chacha20_poly1305_x86_64-linux.S.o:
+
+trampoline-x86_64-apple.S.o:
+
+trampoline-x86_64-linux.S.o:
+
+bcm.c.o:
+                 U abort
+                 U __assert_fail
+                 U __errno_location
+                 U fflush
+                 U fprintf
+                 U fputc
+                 U fwrite
+                 U getauxval
+                 U madvise
+                 U memchr
+                 U memcmp
+                 U memcpy
+                 U memmove
+                 U memset
+                 U mmap
+                 U munmap
+                 U open
+                 U perror
+                 U read
+                 U stderr
+                 U strcmp
+                 U syscall
+                 U sysconf
+                 U __udivti3
+                 U __umodti3
+
+fips_shared_support.c.o:
+
+aesv8-armv8-apple.S.o:
+
+aesv8-armv8-linux.S.o:
+
+aesv8-armv8-win.S.o:
+
+aesv8-gcm-armv8-apple.S.o:
+
+aesv8-gcm-armv8-linux.S.o:
+
+aesv8-gcm-armv8-win.S.o:
+
+armv8-mont-apple.S.o:
+
+armv8-mont-linux.S.o:
+
+armv8-mont-win.S.o:
+
+bn-armv8-apple.S.o:
+
+bn-armv8-linux.S.o:
+
+bn-armv8-win.S.o:
+
+ghash-neon-armv8-apple.S.o:
+
+ghash-neon-armv8-linux.S.o:
+
+ghash-neon-armv8-win.S.o:
+
+ghashv8-armv8-apple.S.o:
+
+ghashv8-armv8-linux.S.o:
+
+ghashv8-armv8-win.S.o:
+
+p256_beeu-armv8-asm-apple.S.o:
+
+p256_beeu-armv8-asm-linux.S.o:
+
+p256_beeu-armv8-asm-win.S.o:
+
+p256-armv8-asm-apple.S.o:
+
+p256-armv8-asm-linux.S.o:
+
+p256-armv8-asm-win.S.o:
+
+sha1-armv8-apple.S.o:
+
+sha1-armv8-linux.S.o:
+
+sha1-armv8-win.S.o:
+
+sha256-armv8-apple.S.o:
+
+sha256-armv8-linux.S.o:
+
+sha256-armv8-win.S.o:
+
+sha512-armv8-apple.S.o:
+
+sha512-armv8-linux.S.o:
+
+sha512-armv8-win.S.o:
+
+vpaes-armv8-apple.S.o:
+
+vpaes-armv8-linux.S.o:
+
+vpaes-armv8-win.S.o:
+
+aesv8-armv7-apple.S.o:
+
+aesv8-armv7-linux.S.o:
+
+armv4-mont-apple.S.o:
+
+armv4-mont-linux.S.o:
+
+bsaes-armv7-apple.S.o:
+
+bsaes-armv7-linux.S.o:
+
+ghash-armv4-apple.S.o:
+
+ghash-armv4-linux.S.o:
+
+ghashv8-armv7-apple.S.o:
+
+ghashv8-armv7-linux.S.o:
+
+sha1-armv4-large-apple.S.o:
+
+sha1-armv4-large-linux.S.o:
+
+sha256-armv4-apple.S.o:
+
+sha256-armv4-linux.S.o:
+
+sha512-armv4-apple.S.o:
+
+sha512-armv4-linux.S.o:
+
+vpaes-armv7-apple.S.o:
+
+vpaes-armv7-linux.S.o:
+
+aesni-x86-apple.S.o:
+
+aesni-x86-linux.S.o:
+
+bn-586-apple.S.o:
+
+bn-586-linux.S.o:
+
+co-586-apple.S.o:
+
+co-586-linux.S.o:
+
+ghash-ssse3-x86-apple.S.o:
+
+ghash-ssse3-x86-linux.S.o:
+
+ghash-x86-apple.S.o:
+
+ghash-x86-linux.S.o:
+
+md5-586-apple.S.o:
+
+md5-586-linux.S.o:
+
+sha1-586-apple.S.o:
+
+sha1-586-linux.S.o:
+
+sha256-586-apple.S.o:
+
+sha256-586-linux.S.o:
+
+sha512-586-apple.S.o:
+
+sha512-586-linux.S.o:
+
+vpaes-x86-apple.S.o:
+
+vpaes-x86-linux.S.o:
+
+x86-mont-apple.S.o:
+
+x86-mont-linux.S.o:
+
+aesni-gcm-x86_64-apple.S.o:
+
+aesni-gcm-x86_64-linux.S.o:
+
+aesni-x86_64-apple.S.o:
+
+aesni-x86_64-linux.S.o:
+
+ghash-ssse3-x86_64-apple.S.o:
+
+ghash-ssse3-x86_64-linux.S.o:
+
+ghash-x86_64-apple.S.o:
+
+ghash-x86_64-linux.S.o:
+
+md5-x86_64-apple.S.o:
+
+md5-x86_64-linux.S.o:
+
+p256_beeu-x86_64-asm-apple.S.o:
+
+p256_beeu-x86_64-asm-linux.S.o:
+
+p256-x86_64-asm-apple.S.o:
+
+p256-x86_64-asm-linux.S.o:
+
+rdrand-x86_64-apple.S.o:
+
+rdrand-x86_64-linux.S.o:
+
+rsaz-avx2-apple.S.o:
+
+rsaz-avx2-linux.S.o:
+
+sha1-x86_64-apple.S.o:
+
+sha1-x86_64-linux.S.o:
+
+sha256-x86_64-apple.S.o:
+
+sha256-x86_64-linux.S.o:
+
+sha512-x86_64-apple.S.o:
+
+sha512-x86_64-linux.S.o:
+
+vpaes-x86_64-apple.S.o:
+
+vpaes-x86_64-linux.S.o:
+
+x86_64-mont-apple.S.o:
+
+x86_64-mont-linux.S.o:
+
+x86_64-mont5-apple.S.o:
+
+x86_64-mont5-linux.S.o:
